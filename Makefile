@@ -2,7 +2,7 @@ SRCS = msg-counter.c dict.c
 OBJS = $(SRCS:%.c=%.o)
 CC = gcc
 PROG = msg-counter
-FILE = Louanne
+FILE = some_file
 
 CFLAGS = -Wall -Wextra -Wmissing-prototypes --pedantic -std=c99
 LDFLAGS = -lm
